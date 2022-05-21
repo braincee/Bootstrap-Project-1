@@ -13,7 +13,7 @@
 
     <title>Bootstrap Project</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
      <!--- Main Nav-->
 
       <nav class="top-nav" id="home">
@@ -40,7 +40,7 @@
              </div>
           </div>
       </nav>
-     <nav class="navbar navbar-expand-lg navbar-light bg-white">
+     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
   <div class="container">
     <a class="navbar-brand" href="#">Prixima<span>.</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,15 +78,28 @@
 
 <!--Slider-->
 
-<div class="slider-wrapper">
+<div class="slider-wrapper owl-carousel owl-theme" id="hero-slider">
     <div class="slide1 min-vh-100 bg-center d-flex align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <h6 class="text-uppercase text-white">We craft digital experiences</h6>
-                    <h1 class="display-3 my-3 text-white">Design Driven for <br>professionals</h1>
+                    <h1 class="display-3 my-3 text-white text-uppercase">Design Driven for <br>professionals</h1>
                     <a href="#" class="btn btn-brand">Get Started</a>
-                    <a href="#" class="btn btn-outline-light">Our work</a>
+                    <a href="#" class="btn btn-outline-light ms-md-3">Our work</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+      <div class="slide2 min-vh-100 bg-center d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h6 class="text-uppercase text-white">Design Driven for Professionals</h6>
+                    <h1 class="display-3 my-3 text-white text-uppercase">We Craft digital <br>experiences</h1>
+                    <a href="#" class="btn btn-brand">Get Started</a>
+                    <a href="#" class="btn btn-outline-light ms-md-3">Our work</a>
                 </div>
             </div>
         </div>
@@ -94,9 +107,55 @@
     </div>
 </div>
 
+<!--About-->
+
+<section>
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5">
+                <div class="row">
+                    <div class="col-12 info-box">
+                       <img src="./Images/icon4.png" alt="">
+                       <div>
+                           <h5>Digital Marketing</h5>
+                           <p>It is a long established fact that a render will be distracted by the rendable content
+                               of the page
+                           </p>
+                       </div>
+
+                    </div>
+                    <div class="col-12 info-box mt-4">
+                       <img src="./Images/icon5.png" alt="">
+                       <div>
+                           <h5>Digital Marketing</h5>
+                           <p>It is a long established fact that a render will be distracted by the rendable content
+                               of the page
+                           </p>
+                       </div>
+
+                    </div>
+                    <div class="col-12 info-box mt-4"> 
+                       <img src="./Images/icon6.png" alt="">
+                       <div>
+                           <h5>Digital Marketing</h5>
+                           <p>It is a long established fact that a render will be distracted by the rendable content
+                               of the page
+                           </p>
+                       </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <img src="./Images/about.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
 
     <script src="./JavaScript/bootstrap.bundle.min.js"></script>
     <script src="./JavaScript/jquery.min.js"></script>
     <script src="./JavaScript/owl.carousel.min.js"></script>
+    <script src="./JavaScript/app.js"></script>
 </body>
 </html>

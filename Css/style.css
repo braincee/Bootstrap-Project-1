@@ -68,9 +68,12 @@ img {
     box-shadow: 0px 6px 30px rgba(54, 54, 54, 0.08);
 }
 
-.nav-link:hover,
-.nav-link.active {
+.nav-link:hover {
     color:#ff4d29;
+}
+
+.navbar.active {
+    color: #ff4d29;
 }
 
 .navbar-brand {
@@ -102,5 +105,56 @@ img {
 /*Slider*/
 
 .slide1 {
-    background-image: url(../Images/bg_banner1.jpg);
+    background: linear-gradient(rgba(85, 82, 82, 0.4), rgba(58, 57, 57, 0.4)), url(../Images/bg_banner1.jpg);
+}
+
+.slide2 {
+    background: linear-gradient(rgba(85, 82, 82, 0.4), rgba(58, 57, 57, 0.4)), url(../Images/bg_banner2.jpg);
+}
+
+/* owl carousel*/
+
+.owl-prev, 
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    margin-top: -30px !important;
+    display: grid;
+    place-items: center;
+    font-size: 12px !important;
+    color:aliceblue !important;
+    font-weight: 700;
+    background-color: rgba(240, 248, 255, 0.2) !important;
+    border-radius: 50% !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+    background-color: #53585e !important;
+}
+
+/*Info Box*/
+.info-box {
+  display: flex;
+  align-items: center;
+}
+
+.info-box img {
+   width: 90px;
+   margin-right: 24px;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
