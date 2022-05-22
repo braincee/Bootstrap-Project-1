@@ -21,19 +21,26 @@ $( function ()
     $( '#project-slider' ).owlCarousel( {
         loop: true,
         margin: 0,
-        nav: false,
+        nav: true,
         dots: false,
+        navText: ['PREV', 'NEXT'],
         smartSpeed: 1500,
         margin: 24,
         responsive: {
             0: {
-                
+                items: 1,
+                nav: false,
+                margin: 0,
+                dots: true,
             },
             768: {
-            
+                items: 1,
+                dots: true,
             },
             1140: {
-               items: 2,
+                items: 2,
+                center: true,
+                dots: true,
             }
         }
     });
