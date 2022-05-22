@@ -27,6 +27,21 @@ img {
     background-size: cover !important;
 }
 
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h6 {
+    font-weight: 600;
+    color:#ff4d29;
+}
+
+.intro p {
+    max-width: 300px;
+    margin: auto;
+}
+
+.i
 /* Top Nav*/
 
 .top-nav {
@@ -172,4 +187,21 @@ section {
 
 #milestone .display-4 {
     font-weight: 700;
+}
+
+/* Service */
+
+.service-box {
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service-box img {
+    width: unset;
+}
+
+.service-box h5 {
+    margin-top: 24px;
+    margin-bottom: 12px;
 }
