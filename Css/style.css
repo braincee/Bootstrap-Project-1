@@ -1,1 +1,160 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barlow:wght@400;500;600;700&family=Dancing+Script:wght@700&family=Lato:wght@300&family=Martel:wght@200;300&family=Pacifico&display=swap');
+
+body {
+    font-size: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+    color: #092032;
+}
+
+a {
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+}
+
+.bg-center {
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Top Nav*/
+
+.top-nav {
+    background-color: #ff4d29;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p {
+   margin-bottom: 0;
+   color: aliceblue; 
+   display: inline-block;
+   margin-right: 16px;
+}
+
+.top-nav i, 
+.top-nav span {
+    vertical-align: middle;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: rgba(240, 248, 255, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 100%;
+}
+
+.social-links a:hover {
+   background-color: aliceblue;
+   color:#ff4d29;
+}
+
+.navbar {
+    box-shadow: 0px 6px 30px rgba(54, 54, 54, 0.08);
+}
+
+.nav-link:hover {
+    color:#ff4d29;
+}
+
+.navbar.active {
+    color: #ff4d29;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 28px;
+    color:#092032;
+}
+
+.navbar-brand span {
+    color: #ff4d29;
+}
+
+.btn {
+    padding: 9px 24px;
+    font-weight: 400;
+}
+
+.btn-brand {
+    background-color: #ff4d29;
+    color: aliceblue;
+    border-color: #ff4d29;
+}
+
+.btn-brand:hover {
+   background-color: aliceblue;
+   color: #ff4d29;
+}
+
+/*Slider*/
+
+.slide1 {
+    background: linear-gradient(rgba(85, 82, 82, 0.4), rgba(58, 57, 57, 0.4)), url(../Images/bg_banner1.jpg);
+}
+
+.slide2 {
+    background: linear-gradient(rgba(85, 82, 82, 0.4), rgba(58, 57, 57, 0.4)), url(../Images/bg_banner2.jpg);
+}
+
+/* owl carousel*/
+
+.owl-prev, 
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    margin-top: -30px !important;
+    display: grid;
+    place-items: center;
+    font-size: 12px !important;
+    color:aliceblue !important;
+    font-weight: 700;
+    background-color: rgba(240, 248, 255, 0.2) !important;
+    border-radius: 50% !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+    background-color: #53585e !important;
+}
+
+/*Info Box*/
+.info-box {
+  display: flex;
+  align-items: center;
+}
+
+.info-box img {
+   width: 90px;
+   margin-right: 24px;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
