@@ -27,6 +27,21 @@ img {
     background-size: cover !important;
 }
 
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h6 {
+    font-weight: 600;
+    color:#ff4d29;
+}
+
+.intro p {
+    max-width: 300px;
+    margin: auto;
+}
+
+.i
 /* Top Nav*/
 
 .top-nav {
@@ -157,4 +172,136 @@ img {
 section {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+/*Milestone*/
+
+#milestone {
+    background: linear-gradient(rgba(65, 55, 55, 0.8), rgba(88, 77, 77, 0.8)), url(../Images/bg_banner2.jpg);
+}
+
+#milestone .display-4,
+#milestone p {
+    color:aliceblue;
+}
+
+#milestone .display-4 {
+    font-weight: 700;
+}
+
+/* Service */
+
+.service-box {
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service-box img {
+    width: unset;
+}
+
+.service-box h5 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+/*Project*/
+
+.project {
+    position: relative;
+}
+
+#project-slider .owl-next,
+#project-slider .owl-prev {
+    background: rgba(245, 222, 179, 0.4) !important;
+}
+
+#project-slider .owl-next:hover,
+#project-slider .owl-prev:hover {
+    background-color: #ff4d29 !important;
+}
+
+.project .overlay {
+    background: linear-gradient(to bottom, rgba(9, 33, 52, 0.0), rgba(9, 32, 50, 0.7));
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+}
+
+.project .content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 32px;
+}
+
+.project h1,
+.project h6 {
+    color: aliceblue;
+}
+
+.project h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1px;
+}
+
+.project h6::before {
+    content: '';
+    height: 2px;
+    width: 24px;
+    background-color:#ff4d29;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+/*Team*/
+
+.team-member {
+    text-align: center;
+}
+
+.team-member .img-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member h5 {
+    margin-top: 24px;
+}
+
+.team-member .overlay {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(129, 120, 116, 0.493);
+    transition: all 0.4s ease;
+    opacity: 0;
+
+}
+
+.team-member .social-links {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.team-member:hover .overlay {
+    opacity: 1;
+    top: 0; 
+}
+
+.team-member:hover .social-links {
+    opacity: 1;
+    top: 50%;
 }
