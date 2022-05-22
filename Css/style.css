@@ -158,3 +158,18 @@ section {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+/*Milestone*/
+
+#milestone {
+    background: linear-gradient(rgba(65, 55, 55, 0.8), rgba(88, 77, 77, 0.8)), url(../Images/bg_banner2.jpg);
+}
+
+#milestone .display-4,
+#milestone p {
+    color:aliceblue;
+}
+
+#milestone .display-4 {
+    font-weight: 700;
+}
