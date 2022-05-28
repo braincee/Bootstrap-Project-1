@@ -98,23 +98,42 @@ section {
 }
 
 .slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+.back-video-2 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
 }
 
 .slide .display-3 {
     text-transform: uppercase;
     color: #fff;
 }
+
 
 /* navbar */
 .top-nav {
@@ -219,7 +238,15 @@ text-align: center;}
     width: 90px;
 }
 
+/*about*/
 
+.la-bee img {
+    width: 300px !important;
+    border-radius: 20% !important;
+    margin: 200px 0 0 200px !important;
+}
+
+/*Milestone*/
 #milestone {
     background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../img/bg_banner1.jpg);
     background-size: cover;
