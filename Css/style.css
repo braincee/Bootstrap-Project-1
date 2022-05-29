@@ -246,6 +246,10 @@ text-align: center;}
     margin: 200px 0 0 200px !important;
 }
 
+.history {
+    background: linear-gradient(rgba(128, 128, 128, 0.24), rgba(128, 128, 128, 0.308)), url(../img/qatar-background.jpg);
+}
+
 /*Milestone*/
 #milestone {
     background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../img/bg_banner1.jpg);
@@ -261,8 +265,12 @@ text-align: center;}
 
 .service {
     padding: 32px;
-    background-color: #fff;
+    background-color: #516171;
     box-shadow: var(--shadow);
+}
+
+.groups {
+    background-color: #516171;
 }
 
 .service h5 {
@@ -274,6 +282,13 @@ text-align: center;}
     width: 90px;
 }
 
+.service table img {
+    width: 20px;
+}
+
+.service table td {
+    color: aliceblue;
+}
 
 .project {
     position: relative;
